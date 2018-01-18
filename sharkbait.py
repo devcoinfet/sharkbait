@@ -9,7 +9,7 @@ live_cap.sniff(timeout=50)
 def main():
    for pkt in live_cap
        try:
-          print(pkt)
+          print pkt
           print pkt.gsm_map.e164_country_code
           print pkt.gsm_map.e164_msisdn
           print pkt.gsm_map.extension
