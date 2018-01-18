@@ -3,11 +3,6 @@ from chum import *
 
 live_cap = pyshark.LiveCapture(interface='lo',display_filter="sccp")
 live_cap.sniff(timeout=50)
-M3ua_Data = {}
-
-
-
-Sccp_Data = {}
 
 
 
